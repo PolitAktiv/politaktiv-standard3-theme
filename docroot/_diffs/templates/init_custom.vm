@@ -33,6 +33,16 @@ This file allows you to override and define new Velocity variables.
 #set($customDKLogo = $theme.getSetting("customDKLogo"))
 #set($customDKLogoContent = $journalContentUtil.getContent($getterUtil.getLong($group_id), "$customDKLogo", null, "$locale", $theme_display))
 
+#* -------------------------- custom CSS overwrite -------------------------- *#
+#set($theme3CSSOverwrite = $theme.getSetting("theme3CSSOverwriteId"))
+#* if overwrite file is located in group scope then the following variable is not null *#
+#set($theme3CSSOverwriteContent = $journalContentUtil.getContent($getterUtil.getLong($group_id), "$theme3CSSOverwrite", null, "$locale", $theme_display))
+#* if no overwrite-file in group, then check if overwrite defined globally *#
+#if(! $theme3CSSOverwriteContent)
+	#set($theme3CSSOverwriteContent = $journalContentUtil.getContent($systemGroupId, "$theme3CSSOverwrite", null, "$locale", $theme_display))
+#end
+
+
 #* ------------------------------ ist-top-bar -------------------------------- *#
 #set($systemGroupId = $getterUtil.getLong($theme.getSetting("systemGroupId")))
 #set($istTopBarArticleId = $theme.getSetting("istTopBarArticleId"))

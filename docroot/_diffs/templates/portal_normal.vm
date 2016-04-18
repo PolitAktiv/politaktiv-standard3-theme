@@ -10,6 +10,11 @@
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
 
 	$theme.include($top_head_include)
+	
+	## if some style-overwriting file is defined, add CSS to header: 
+	#if($theme3CSSOverwriteContent) 
+		<style> $theme3CSSOverwriteContent </style>
+	#end
 </head>
 
 <body class="$css_class">
@@ -44,7 +49,9 @@ $theme.include($body_top_include)
 				</a>
 				
 				<div class="page-title">
-					<h2><span>$the_title</span></h2>
+					<a href="$site_default_url">
+						<h1><span>$the_title</span></h1>
+					</a>
 				</div>	
 				
 				<nav id="breadcrumbs">#breadcrumbs()</nav>

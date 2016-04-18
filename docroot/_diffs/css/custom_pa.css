@@ -95,7 +95,7 @@ a.aui pre,
 	position: absolute;
 }
 
-.aui #banner h2{
+.aui #banner h1{
 	clip: auto;
 	position: relative;
 	float: left;
@@ -105,6 +105,14 @@ a.aui pre,
 	font-weight: 600;
 	margin: 0px;
 	padding-top: 10px;
+}
+
+.aui #banner .page-title a, .aui #banner .page-title a:hover, .aui #banner .page-title a:active, .aui #banner .page-title a:focus{
+	color: rgb(85, 85, 85);
+	font-weight: 600;
+	text-decoration: none;
+	outline: 0;
+ 	outline-offset: 0px;
 }
   
 .logo{
