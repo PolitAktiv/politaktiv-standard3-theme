@@ -61,7 +61,8 @@
 
 	.aui #navigation{
 		position: absolute;
-		width: 99.95%;
+		width: 100%;
+		left: 0px;
 	}
   
 	.aui #navigation li{

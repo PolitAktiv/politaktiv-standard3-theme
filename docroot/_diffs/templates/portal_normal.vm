@@ -11,10 +11,15 @@
 
 	$theme.include($top_head_include)
 	
-	## if some style-overwriting file is defined, add CSS to header: 
+	## if some custom global style-overwriting file is defined, add CSS to header: 
 	#if($theme3CSSOverwriteContent) 
 		<style> $theme3CSSOverwriteContent </style>
 	#end
+	## if some custom global JS-file is defined, add JS to header: 
+	#if($theme3JSOverwriteContent) 
+		$theme3JSOverwriteContent 
+	#end
+	
 </head>
 
 <body class="$css_class">

@@ -42,6 +42,10 @@ This file allows you to override and define new Velocity variables.
 	#set($theme3CSSOverwriteContent = $journalContentUtil.getContent($systemGroupId, "$theme3CSSOverwrite", null, "$locale", $theme_display))
 #end
 
+#* -------------------------- custom CSS overwrite -------------------------- *#
+#set($theme3JSOverwrite = $theme.getSetting("theme3JSOverwriteId"))
+#set($theme3JSOverwriteContent = $journalContentUtil.getContent($systemGroupId, "$theme3JSOverwrite", null, "$locale", $theme_display))
+
 
 #* ------------------------------ ist-top-bar -------------------------------- *#
 #set($systemGroupId = $getterUtil.getLong($theme.getSetting("systemGroupId")))
