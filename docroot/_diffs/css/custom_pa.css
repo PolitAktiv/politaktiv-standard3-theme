@@ -23,11 +23,11 @@
 
 .aui h1{
   font-size: 2em;
-  line-height: 30px; }
+  line-height: 34px; }
 
 .aui h2{
   font-size: 1.6em;
-  line-height: 30px; }
+  line-height: 28px; }
 
 .aui h3{
   font-size: 1.4em;
@@ -118,10 +118,9 @@ a.aui pre,
 .logo{
 	float: left;
 	text-align: center;
-	width: 15%;
+	width: 13%;
 	margin-right: 1%;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-left: 1%;
 }  
 
 #heading{
@@ -157,7 +156,9 @@ a.aui pre,
 .page-title{
     overflow: hidden;
     width: 68%;
+    margin-top: 25px;
     padding-bottom: 20px; /*for breadcrumbs not to be overflew*/
+    margin-left: 16%;
 }
 
 
@@ -175,6 +176,25 @@ a.aui pre,
 
 div .ist-topbar{
 	visibility: hidden;
+}
+
+a.svg-logo {
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+}
+
+a.svg-logo::after {
+  content: ""; 
+  position: absolute;
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
+}
+
+object.svg-logo {
+	margin-top: 10px;
 }
 
 /* ++++++++++++++++

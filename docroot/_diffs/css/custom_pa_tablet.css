@@ -5,7 +5,7 @@
 +++++++++++++++++*/
 
 	.aui body {
-   		font-size: 12px;
+   		font-size: 14px;
 	}
 	
 	#wrapper {
@@ -18,16 +18,10 @@
 ++++++HEADER+++++++
 +++++++++++++++++*/
 
-	.aui #heading{
-		position: relative;
-	}
-	
-	.aui #heading .site-title img {
-    	width: 100%;
-	}
-	
-	#heading{
-		padding-left: 1%;
+	.aui #heading {
+    	position: relative;
+    	overflow: initial;
+    	padding-top: 0px;		
 	}
 
 	.aui #breadcrumbs {
@@ -36,6 +30,35 @@
 	
 	.ist-topbar{
     	display: none;
+	}
+	
+	.aui .portlet-dockbar {
+    	width: inherit;
+    	float: right;
+	}
+	
+	.page-title{
+		width: 100%;
+		padding-bottom: 40px;
+		margin-left: 0px;
+	}
+	
+	.logo{
+		width: 15%;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 0px;
+	}
+	
+	object.svg-logo {
+		margin-top: 10px;
+	}
+	a.svg-logo{
+		bottom: initial;
+	}
+	
+	.aui #breadcrumbs{
+		left: 0px;
 	}
 
 /* ++++++++++++++++
@@ -64,7 +87,7 @@
 		width: 100%;
 		left: 0px;
 	}
-  
+	  
 	.aui #navigation li{
 		background-image: none;
 	}
@@ -75,10 +98,10 @@
 	}
 	
 	.aui #navigation.open {
-    	top: 0px;
+    	top: 76px;
 	}
 	
-	
+		
 	.aui #navigation .navbar-inner{
 		background: none repeat scroll 0% 0% rgb(244, 244, 244);
 		border-top: 1px solid #CCC;
@@ -110,9 +133,11 @@
 		background-color: #FFF;
 	}
 	
-	.aui #navigation .nav .dropdown-menu {
+	.aui #navigation .nav .dropdown-menu{
 		background: #F4F4F4 !important;
 	}
+
+
 
 		
 	
