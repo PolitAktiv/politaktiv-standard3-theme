@@ -54,7 +54,8 @@
 	}
 	
 	.logo{
-		width: 15%;
+		/* width: 15%; */
+		width:90px;
 		margin-left: 0px;
 		margin-right: 0px;
 		margin-top: 0px;

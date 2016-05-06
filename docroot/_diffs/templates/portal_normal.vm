@@ -62,7 +62,8 @@ $theme.include($body_top_include)
 				
 				<div class="page-title">
 					<a href="$site_default_url">
-						<h1><span>$layout.getGroup().getName() </span></h1>
+						##<h1><span>$layout.getGroup().getName() </span></h1>
+						<h1><span>$community_name</span></h1>
 					</a>
 				</div>	
 				
