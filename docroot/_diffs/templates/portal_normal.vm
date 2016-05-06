@@ -2,7 +2,7 @@
 
 #parse ($init)
 
-<html class="$root_css_class" dir="#language ("lang.dir")" lang="$w3c_language_id">
+<html class="$root_css_class pa-randhintergrund" dir="#language ("lang.dir")" lang="$w3c_language_id">
 
 <head>
 	<title>$the_title - $company_name</title>
@@ -20,7 +20,9 @@
 	
 </head>
 
-<body class="$css_class">
+<body class="$css_class startseite-body pa-randhintergrund">
+
+<div class="startseite-topcontainer">
 
 <a href="#main-content" id="skip-to-content">#language ("skip-to-content")</a>
 
@@ -28,7 +30,7 @@ $theme.include($body_top_include)
 
 #dockbar()
 
-<div class="container-fluid" id="wrapper">
+<div class="container-fluid startseite-innercontainer" id="wrapper">
 
 	<header id="banner" role="banner">
 		<div class="ist-topbar">
@@ -151,6 +153,8 @@ $theme.include($body_top_include)
 	<footer id="footer" role="contentinfo">
 		<span> $footerContent </span>
 	</footer>
+</div>
+
 </div>
 
 $theme.include($body_bottom_include)
