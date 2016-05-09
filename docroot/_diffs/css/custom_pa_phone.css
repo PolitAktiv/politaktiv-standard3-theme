@@ -59,14 +59,10 @@
 		margin-left: 0px;
 		margin-right: 0px;
 		margin-top: 0px;
+		padding-top: 16px;
+		position: relative;
 	}
 	
-	object.svg-logo {
-		margin-top: 10px;
-	}
-	a.svg-logo{
-		bottom: initial;
-	}
 	
 
 /* ++++++++++++++++

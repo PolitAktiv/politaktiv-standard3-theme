@@ -44,10 +44,7 @@ $theme.include($body_top_include)
 						$customDKLogoContent
 					#else 
 					
-					##<object class="svg-logo" data="$images_folder/_custom/Logo-Rot-Vektor.svg" type="image/svg+xml">
-
-                    	<img alt="$logo_description"  src="$site_logo"  />
-					##</object>
+                    	<img alt="$logo_description"  src="$images_folder/_custom/Logo-Rot-Vektor-volldurchsichtig.png"  />
 					
 					#end
 
