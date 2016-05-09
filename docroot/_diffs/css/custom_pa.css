@@ -201,7 +201,7 @@ div .ist-topbar{
 }
 
 a.svg-logo {
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0;
   display: inline-block;
 }
