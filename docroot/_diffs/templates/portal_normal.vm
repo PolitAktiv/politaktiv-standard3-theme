@@ -20,6 +20,8 @@
 
 <body class="$css_class startseite-body pa-randhintergrund">
 
+<div class="startseite-topcontainer">
+
 <a href="#main-content" id="skip-to-content">#language ("skip-to-content")</a>
 
 $theme.include($body_top_include)
@@ -147,6 +149,7 @@ $theme.include($body_top_include)
 	<footer id="footer" role="contentinfo">
 		<span> $footerContent </span>
 	</footer>
+</div>
 </div>
 
 
