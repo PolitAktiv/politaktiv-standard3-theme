@@ -34,7 +34,7 @@ $theme.include($body_top_include)
 		</div>
 	
 		<div id="heading">
-				<a class="$logo_css_class svg-logo" href="$site_default_url" title="#language_format ("go-to-x", [$site_name])">
+				<a class="$logo_css_class svg-logo" href="$company_url" title="Zurück zur Startseite">
 				
 					#if($customDKLogoContent)
 						$customDKLogoContent
