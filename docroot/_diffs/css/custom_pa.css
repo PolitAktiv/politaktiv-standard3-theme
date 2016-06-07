@@ -134,11 +134,7 @@ a.aui pre,
 	width: 100%;
 }
 
-
-
 .aui .breadcrumb {
-    /*margin-bottom: 0px;*/
-   
     text-align: left;
     font-size: 14px;
 	color: #676767;
@@ -148,7 +144,6 @@ a.aui pre,
 ul.breadcrumb {
 	 padding-bottom:3px !important;
 }
-
 
 .aui .lfr-hudcrumbs {
     z-index: 1002;  /*TODO: update/remove this line, as soon as map2-portlet has its z-indices updated*/
@@ -201,7 +196,6 @@ div .ist-topbar{
 	*/
 	display:none;
 }
-
 
 /* ++++++++++++++++
 ++++++IMAGE++++++++

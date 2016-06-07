@@ -62,7 +62,7 @@ div.startseite-innercontainer {
 	
 	div.startseite-innercontainer {
 	background-color:  white;
-	padding-top:0px !important;
+	padding-top:10px !important;
 	padding-left:10px !important;
 	margin-left:0px !important;
 	padding-right:10px !important;
@@ -77,10 +77,4 @@ div.startseite-innercontainer {
 	div.startseite-topcontainer {
 		margin-top:0px !important;
 	}
-	
-	div.startseite-innercontainer {
-		padding-top:0px !important;
-	}
-	
-	
 }	

@@ -16,13 +16,9 @@
 	## include js from global document library
 	<script type="text/javascript" src="$jsIncludePath"></script>
 
-	
-	
 </head>
 
 <body class="$css_class startseite-body pa-randhintergrund">
-
-<div class="startseite-topcontainer">
 
 <a href="#main-content" id="skip-to-content">#language ("skip-to-content")</a>
 
@@ -153,7 +149,6 @@ $theme.include($body_top_include)
 	</footer>
 </div>
 
-</div>
 
 $theme.include($body_bottom_include)
 

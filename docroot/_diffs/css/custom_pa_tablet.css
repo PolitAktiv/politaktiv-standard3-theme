@@ -53,8 +53,6 @@
   		position: relative;
 	}
 	
-
-	
 	.aui #breadcrumbs{
 		left: 0px;
 	}
@@ -85,7 +83,7 @@
 		width: 100%;
 		left: 0px;
 	}
-	  
+	
 	.aui #navigation li{
 		background-image: none;
 	}
@@ -99,7 +97,6 @@
     	top: 76px;
 	}
 	
-		
 	.aui #navigation .navbar-inner{
 		background: none repeat scroll 0% 0% rgb(244, 244, 244);
 		border-top: 1px solid #CCC;
@@ -134,8 +131,6 @@
 	.aui #navigation .nav .dropdown-menu{
 		background: #F4F4F4 !important;
 	}
-
-
 
 		
 	
