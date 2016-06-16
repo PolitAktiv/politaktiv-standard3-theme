@@ -8,3 +8,9 @@
 
 * 2016-13-05
   * further improvements, intended for release
+
+* 2016-16-06
+  * further improvements
+  * bugfix: anchor
+  * bugfix: click on logo now leads back to main page
+  * adaption to the code of startseite-theme
