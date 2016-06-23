@@ -9,8 +9,12 @@
 * 2016-13-05
   * further improvements, intended for release
 
-* 2016-16-06
+* 2016-16-06 - release 6.2.1.4
   * further improvements
   * bugfix: anchor
   * bugfix: click on logo now leads back to main page
   * adaption to the code of startseite-theme
+
+* 2016-23-06 - release 6.2.1.5
+  * fixed anchors - now they only behave like text in webcontents
+  * fixed padding for mobile views
